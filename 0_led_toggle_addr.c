@@ -55,7 +55,7 @@ int main(void)
 	RCC_AHB1ENR |= GPIOAEN;
 	// 2. Set PA5 as output pin
 	GPIOA_MODER |= (1UL<<10);
-	GPIOA_MODER &= ~(1U<<11);
+	GPIOA_MODER &= ~(1UL<<11);
 
 	// 3. Set PA5 high
 	while(1)
